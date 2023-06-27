@@ -5,7 +5,7 @@ import AboutMe from "../Components/AboutMe";
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-gradient-to-r from-slate-50 via-white to-slate-100">
       <Navbar></Navbar>
       {/* main container */}
       <div className="px-10">
