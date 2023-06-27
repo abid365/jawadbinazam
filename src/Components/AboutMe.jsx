@@ -8,7 +8,7 @@ const AboutMe = () => {
       </h1>
       <div className="grid grid-cols-2 gap-2">
         <div>
-          <p className="mt-5">
+          <p className="my-5">
             Hello! My name is Jawad Bin Azam and I enjoy creating things that
             survive on the internet. My interest became more strong when I
             decided to create a custom blogging site where everyone can post
