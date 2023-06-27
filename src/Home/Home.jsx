@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Shared/Navbar";
 import HeroSection from "../Components/HeroSection";
+import AboutMe from "../Components/AboutMe";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       {/* main container */}
       <div className="px-10">
         <HeroSection></HeroSection>
+        <AboutMe></AboutMe>
       </div>
     </div>
   );
