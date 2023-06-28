@@ -1,5 +1,5 @@
 import React from "react";
-import { BsArrowRightShort } from "react-icons/bs";
+import { BsArrowRightShort, BsArrow90DegDown } from "react-icons/bs";
 
 const AboutMe = () => {
   return (
@@ -7,7 +7,8 @@ const AboutMe = () => {
       <h1 className="text-3xl font-bold text-black">
         <span className="text-red-400">#</span>About Me
       </h1>
-      <div className="grid grid-cols-2 gap-2">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-3 items-center">
+        {/* first grid column */}
         <div>
           <p className="my-5">
             Hello! My name is Jawad Bin Azam and I enjoy creating things that
@@ -48,6 +49,44 @@ const AboutMe = () => {
                 Firebase
               </li>
             </ul>
+          </div>
+        </div>
+        {/* second grid column */}
+        <div>
+          <h1 className="text-center text-slate-600 text-sm lg:mt-0 mt-5">
+            Technologies thats I know
+          </h1>
+          <div className="grid grid-cols-3 lg:gap-2 gap-3 place-items-center">
+            <img
+              className="border border-slate-50 rounded-lg bg-white shadow-lg p-2 h-1/2"
+              src="/src/assets/icons8-react-js.svg"
+              alt=""
+            />
+            <img
+              className="border border-slate-50 rounded-lg bg-white shadow-lg p-2 h-1/2"
+              src="/src/assets/icons8-tailwindcss.svg"
+              alt=""
+            />
+            <img
+              className="border border-slate-50 rounded-lg bg-white shadow-lg p-2 h-1/2"
+              src="/src/assets/icons8-nodejs.svg"
+              alt=""
+            />
+            <img
+              className="border border-slate-50 rounded-lg bg-white shadow-lg p-2 h-1/2"
+              src="/src/assets/icons8-git.svg"
+              alt=""
+            />
+            <img
+              className="border border-slate-50 rounded-lg bg-white shadow-lg p-2 h-1/2"
+              src="/src/assets/icons8-firebase.svg"
+              alt=""
+            />
+            <img
+              className="border border-slate-50 rounded-lg bg-white shadow-lg p-2 h-1/2"
+              src="/src/assets/icons8-express-js.svg"
+              alt=""
+            />
           </div>
         </div>
       </div>
