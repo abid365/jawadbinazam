@@ -53,37 +53,37 @@ const AboutMe = () => {
         </div>
         {/* second grid column */}
         <div>
-          <h1 className="text-center text-slate-600 text-sm lg:mt-0 mt-5">
-            Technologies thats I know
+          <h1 className="text-center text-slate-600 text-sm lg:my-3 my-5">
+            Technologies that I know
           </h1>
-          <div className="grid grid-cols-3 lg:gap-2 gap-3 place-items-center">
+          <div className="grid grid-cols-3 lg:gap-4 gap-3 place-items-center">
             <img
-              className="border border-slate-50 rounded-lg bg-white shadow-lg p-2 h-1/2"
+              className="border border-slate-50 rounded-xl bg-white drop-shadow-lg p-4 h-2/3"
               src="/src/assets/icons8-react-js.svg"
               alt=""
             />
             <img
-              className="border border-slate-50 rounded-lg bg-white shadow-lg p-2 h-1/2"
+              className="border border-slate-50 rounded-xl bg-white drop-shadow-lg p-4 h-2/3"
               src="/src/assets/icons8-tailwindcss.svg"
               alt=""
             />
             <img
-              className="border border-slate-50 rounded-lg bg-white shadow-lg p-2 h-1/2"
+              className="border border-slate-50 rounded-xl bg-white drop-shadow-lg p-4 h-2/3"
               src="/src/assets/icons8-nodejs.svg"
               alt=""
             />
             <img
-              className="border border-slate-50 rounded-lg bg-white shadow-lg p-2 h-1/2"
+              className="border border-slate-50 rounded-xl bg-white drop-shadow-lg p-4 h-2/3"
               src="/src/assets/icons8-git.svg"
               alt=""
             />
             <img
-              className="border border-slate-50 rounded-lg bg-white shadow-lg p-2 h-1/2"
+              className="border border-slate-50 rounded-xl bg-white drop-shadow-lg p-4 h-2/3"
               src="/src/assets/icons8-firebase.svg"
               alt=""
             />
             <img
-              className="border border-slate-50 rounded-lg bg-white shadow-lg p-2 h-1/2"
+              className="border border-slate-50 rounded-xl bg-white drop-shadow-lg p-4 h-2/3"
               src="/src/assets/icons8-express-js.svg"
               alt=""
             />

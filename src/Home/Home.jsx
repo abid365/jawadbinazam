@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Shared/Navbar";
 import HeroSection from "../Components/HeroSection";
 import AboutMe from "../Components/AboutMe";
+import Work from "../Components/Work";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <div className="px-10">
         <HeroSection></HeroSection>
         <AboutMe></AboutMe>
+        <Work></Work>
       </div>
     </div>
   );
