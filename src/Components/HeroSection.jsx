@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
-    <div className="grid lg:grid-cols-2 grid-cols-1">
+    <div className="grid lg:grid-cols-2 grid-cols-1 items-center">
       <div className="lg:mt-14 mt-10 pb-20">
         <h1 className="text-slate-700">👋 Hi, my name is</h1>
         <h1 className="tracking-tight text-6xl font-bold mt-8">Jawad</h1>
@@ -23,7 +23,13 @@ const HeroSection = () => {
           </a>
         </button>
       </div>
-      {/* <SplineAni></SplineAni> */}
+      <div>
+        <img
+          className="rounded-full border-2 border-slate-700 shadow-lg h-2/3 scale-75"
+          src="/src/assets/Jawad'sImage.jpg"
+          alt="Portfoliyo Image"
+        />
+      </div>
     </div>
   );
 };
