@@ -3,6 +3,7 @@ import Navbar from "../Shared/Navbar";
 import HeroSection from "../Components/HeroSection";
 import AboutMe from "../Components/AboutMe";
 import Work from "../Components/Work";
+import AnimatedCursor from "react-animated-cursor";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <AboutMe></AboutMe>
         <Work></Work>
       </div>
+      <AnimatedCursor />
     </div>
   );
 };

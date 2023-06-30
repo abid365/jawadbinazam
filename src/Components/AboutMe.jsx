@@ -3,7 +3,7 @@ import { BsArrowRightShort, BsArrow90DegDown } from "react-icons/bs";
 
 const AboutMe = () => {
   return (
-    <div className="my-20" id="about">
+    <div className="my-20 pt-10" id="about">
       <h1 className="text-3xl font-bold text-black">
         <span className="text-red-400">#</span>About Me
       </h1>
