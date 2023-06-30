@@ -26,7 +26,7 @@ const HeroSection = () => {
       <div>
         <img
           className="rounded-full border-2 border-slate-700 shadow-lg h-2/3 scale-75"
-          src="/src/assets/Jawad'sImage.jpg"
+          src="/public/Jawad'sImage.jpg"
           alt="Portfoliyo Image"
         />
       </div>
