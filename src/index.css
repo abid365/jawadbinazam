@@ -5,11 +5,3 @@ html {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.btn {
-  tansition: 3s box-shadow;
-}
-
-.btn:hover {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
-}
