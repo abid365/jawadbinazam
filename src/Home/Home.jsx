@@ -5,6 +5,7 @@ import AboutMe from "../Components/AboutMe";
 import Work from "../Components/Work";
 import AnimatedCursor from "react-animated-cursor";
 import { HashLoader } from "react-spinners";
+import Contacts from "../Components/Contacts";
 
 const Home = () => {
   const [loading, setLoading] = useState(false);
@@ -29,6 +30,7 @@ const Home = () => {
             <HeroSection></HeroSection>
             <AboutMe></AboutMe>
             <Work></Work>
+            <Contacts></Contacts>
           </div>
           <AnimatedCursor />
         </div>
