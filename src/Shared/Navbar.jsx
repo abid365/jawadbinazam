@@ -15,7 +15,7 @@ const Navbar = () => {
         <a className="font-bold hover:border-b w-fit pb-1" href="#work">
           Work
         </a>
-        <a className="font-bold hover:border-b w-fit pb-1" href="">
+        <a className="font-bold hover:border-b w-fit pb-1" href="#contact">
           Contact
         </a>
         <a
