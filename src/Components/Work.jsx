@@ -21,7 +21,7 @@ const Work = () => {
         <span className="text-red-400">#</span>Some Things I've Built
       </h1>
       {/* project showcase */}
-      <div className="my-16 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1">
+      <div className="mt-10 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1">
         {/* first grid column */}
         <div>
           <h1 className="text-slate-800 text-sm font-semibold tracking-wider my-4">
