@@ -1,5 +1,11 @@
 import React from "react";
 import { BsArrowRightShort, BsArrow90DegDown } from "react-icons/bs";
+import reactjs from "../assets/icons8-react-js.svg";
+import tailwind from "../assets/icons8-tailwindcss.svg";
+import nodejs from "../assets/icons8-nodejs.svg";
+import git from "../assets/icons8-git.svg";
+import firebase from "../assets/icons8-firebase.svg";
+import express from "../assets/icons8-express-js.svg";
 
 const AboutMe = () => {
   return (
@@ -56,35 +62,35 @@ const AboutMe = () => {
           <h1 className="text-center text-slate-600 text-sm lg:my-3 my-5">
             Technologies that I know
           </h1>
-          <div className="grid grid-cols-3 lg:gap-4 gap-3 place-items-center">
+          <div className="grid grid-cols-2  lg:grid-cols-3 lg:gap-4 gap-3 place-items-center">
             <img
               className="border border-slate-50 rounded-xl bg-white drop-shadow-lg p-4 h-2/3"
-              src="/src/assets/icons8-react-js.svg"
+              src={reactjs}
               alt=""
             />
             <img
               className="border border-slate-50 rounded-xl bg-white drop-shadow-lg p-4 h-2/3"
-              src="/src/assets/icons8-tailwindcss.svg"
+              src={tailwind}
               alt=""
             />
             <img
               className="border border-slate-50 rounded-xl bg-white drop-shadow-lg p-4 h-2/3"
-              src="/src/assets/icons8-nodejs.svg"
+              src={nodejs}
               alt=""
             />
             <img
               className="border border-slate-50 rounded-xl bg-white drop-shadow-lg p-4 h-2/3"
-              src="/src/assets/icons8-git.svg"
+              src={git}
               alt=""
             />
             <img
               className="border border-slate-50 rounded-xl bg-white drop-shadow-lg p-4 h-2/3"
-              src="/src/assets/icons8-firebase.svg"
+              src={firebase}
               alt=""
             />
             <img
               className="border border-slate-50 rounded-xl bg-white drop-shadow-lg p-4 h-2/3"
-              src="/src/assets/icons8-express-js.svg"
+              src={express}
               alt=""
             />
           </div>
