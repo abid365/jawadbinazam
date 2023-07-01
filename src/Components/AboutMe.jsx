@@ -64,32 +64,32 @@ const AboutMe = () => {
           </h1>
           <div className="grid grid-cols-2  lg:grid-cols-3 lg:gap-4 gap-3 place-items-center">
             <img
-              className="border border-slate-50 rounded-xl bg-white drop-shadow-lg p-4 h-2/3"
+              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-2/3"
               src={reactjs}
               alt=""
             />
             <img
-              className="border border-slate-50 rounded-xl bg-white drop-shadow-lg p-4 h-2/3"
+              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-2/3"
               src={tailwind}
               alt=""
             />
             <img
-              className="border border-slate-50 rounded-xl bg-white drop-shadow-lg p-4 h-2/3"
+              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-2/3"
               src={nodejs}
               alt=""
             />
             <img
-              className="border border-slate-50 rounded-xl bg-white drop-shadow-lg p-4 h-2/3"
+              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-2/3"
               src={git}
               alt=""
             />
             <img
-              className="border border-slate-50 rounded-xl bg-white drop-shadow-lg p-4 h-2/3"
+              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-2/3"
               src={firebase}
               alt=""
             />
             <img
-              className="border border-slate-50 rounded-xl bg-white drop-shadow-lg p-4 h-2/3"
+              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-2/3"
               src={express}
               alt=""
             />
