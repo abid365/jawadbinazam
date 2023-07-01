@@ -4,6 +4,7 @@ import whatsapplogo from "../assets/icons8-whatsapp.svg";
 import linkedin from "../assets/icons8-linkedin.svg";
 import gmail from "../assets/icons8-gmail.svg";
 import medium from "../assets/icons8-medium.svg";
+import lock from "../assets/icons8-lock-64.png";
 
 const Contacts = () => {
   // send mail function
@@ -30,44 +31,20 @@ const Contacts = () => {
 
   return (
     <div id="contact" className="my-36 pt-10">
-      <h1 className="text-5xl font-extrabold text-slate-800 text-center tracking-tighter capitalize">
-        Get in touch
-      </h1>
-      <p className="text-center my-3 text-xs">
-        Fostering Meaningful Connections: Inspire and<br></br> Transform
-        Together.
-      </p>
-      <div className="grid lg:grid-cols-4 lg:gap-3 gap-4 grid-cols-1 place-items-center mt-20">
-        <div className="flex items-center border border-slate-50 bg-white w-fit p-2 drop-shadow-md rounded-md">
-          <img className="h-7" src={gmail} alt="gmail logo" />
-          <h1 className="text-xs px-2 ">abidibnazam@gmail.com</h1>
-        </div>
-        <div className="flex items-center border border-slate-50 bg-white w-fit p-2 drop-shadow-md rounded-md">
-          <a href="https://jawadbinazam.medium.com">
-            <img className="h-7" src={medium} alt="medium.com" />
-          </a>
-          <h1 className="text-xs px-2 tracking-tight">
-            medium.com/@jawadbinazam
-          </h1>
-        </div>
-        <div className="flex items-center border border-slate-50 bg-white w-fit p-2 drop-shadow-md rounded-md">
-          <img className="h-7" src={whatsapplogo} alt="whatsapp logo" />
-          <a className="text-xs pt-1 px-2" href="https://wa.me/+8801828909335">
-            For any query, ask me
-          </a>
-        </div>
-        <div className="flex items-center border border-slate-50 bg-white w-fit p-2 drop-shadow-md rounded-md">
-          <img className="h-7" src={linkedin} alt="whatsapp logo" />
-          <a
-            className="text-xs pt-1 px-2"
-            href="https://www.linkedin.com/in/jawadbinazam/"
-          >
-            Let's connect in linkedin
-          </a>
-        </div>
-      </div>
+      {/* social links */}
+      <div className="my-60 py-20"></div>
       {/* mail contact form */}
       <div className="mt-14">
+        <div>
+          <h1 className="text-4xl font-bold text-slate-800 my-10">
+            Love to hear from you <br></br> Get in touch 👋
+          </h1>
+          {/* <p className="text-xs text-center">
+            Message's are encrypted, following<br></br> end to end encryption
+            mehtod
+          </p>
+          <img className="h-7 my-2" src={lock} alt="lock" /> */}
+        </div>
         <form className="flex flex-col" ref={form} onSubmit={sendEmail}>
           <label>Name</label>
           <input
@@ -83,7 +60,7 @@ const Contacts = () => {
           />
           <label className="mt-3">Message</label>
           <textarea
-            className="border border-slate-800 rounded p-1"
+            className="border border-slate-50 bg-slate-100 rounded p-2"
             name="message"
           />
           <input
