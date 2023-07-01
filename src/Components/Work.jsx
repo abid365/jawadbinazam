@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
+import Projects from "../Sub-components/Projects";
 
 const Work = () => {
   const progressCircle = useRef(null);
@@ -132,6 +133,66 @@ const Work = () => {
           </Swiper>
         </div>
       </div>
+      {/* second featured project */}
+      <Projects
+        title={"A Toy Marketplace"}
+        li1={"It has dynamic routing"}
+        li2={
+          "A user can't access some fetaures without logging in, firebase authentication implemented. Logout, login, create user implemented"
+        }
+        li3={
+          "MongoDb is used for crud operations, user can Add new items or manage existing items"
+        }
+        tech1={"React"}
+        tech2={"MongoDB"}
+        tech3={"Node.js"}
+        tech4={"Express.js"}
+        tech5={"Firebase"}
+        repolink={"https://github.com/abid365/Gundamtoy-Client/tree/main"}
+        sitelink={"https://gundam-toy.web.app/"}
+        img1={
+          "https://i.ibb.co/y0TMCHY/Screenshot-from-2023-07-01-09-56-31.png"
+        }
+        img2={
+          "https://i.ibb.co/4J6VZpF/Screenshot-from-2023-07-01-09-56-41.png"
+        }
+        img3={
+          "https://i.ibb.co/QHs8SWs/Screenshot-from-2023-07-01-09-56-45.png"
+        }
+        img4={
+          "https://i.ibb.co/3TGLv6N/Screenshot-from-2023-07-01-09-56-50.png"
+        }
+        img5={
+          "https://i.ibb.co/1fsVnnN/Screenshot-from-2023-07-01-09-57-06.png"
+        }
+      ></Projects>
+      {/* third featured project */}
+      <Projects
+        title={"A Job Hunting Website"}
+        li1={"Inclueds statistical graph data"}
+        li2={"Deployed in netlify"}
+        li3={"Mobile Responsive Design"}
+        tech1={"React"}
+        tech2={"Tailwind CSS"}
+        tech3={"React Router"}
+        repolink={"https://github.com/abid365/joblsitingsite"}
+        sitelink={"https://bejewelled-hamster-428050.netlify.app/"}
+        img1={
+          "https://i.ibb.co/ZLF1CNt/Screenshot-from-2023-07-01-11-02-17.png"
+        }
+        img2={
+          "https://i.ibb.co/Pzr3VcP/Screenshot-from-2023-07-01-11-02-22.png"
+        }
+        img3={
+          "https://i.ibb.co/KK1XPVn/Screenshot-from-2023-07-01-11-02-30.png"
+        }
+        img4={
+          "https://i.ibb.co/44PjTwT/Screenshot-from-2023-07-01-11-02-39.png"
+        }
+        img5={
+          "https://i.ibb.co/6n81Hns/Screenshot-from-2023-07-01-11-02-35.png"
+        }
+      ></Projects>
     </div>
   );
 };
