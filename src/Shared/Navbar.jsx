@@ -20,7 +20,6 @@ const Navbar = () => {
         </a>
         <a
           href="/public/Resume of Jawad Azam.pdf"
-          target="_blank"
           download
           className="border rounded border-slate-400 px-4 pt-2 pb-1 font-bold hover:bg-white hover:text-red-400"
         >

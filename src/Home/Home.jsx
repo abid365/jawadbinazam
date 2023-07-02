@@ -6,6 +6,7 @@ import Work from "../Components/Work";
 import AnimatedCursor from "react-animated-cursor";
 import { HashLoader } from "react-spinners";
 import Contacts from "../Components/Contacts";
+import Footer from "../Shared/Footer";
 
 const Home = () => {
   const [loading, setLoading] = useState(false);
@@ -32,6 +33,7 @@ const Home = () => {
             <Work></Work>
             <Contacts></Contacts>
           </div>
+          <Footer></Footer>
           <AnimatedCursor />
         </div>
       )}

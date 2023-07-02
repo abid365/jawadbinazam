@@ -6,6 +6,9 @@ import nodejs from "../assets/icons8-nodejs.svg";
 import git from "../assets/icons8-git.svg";
 import firebase from "../assets/icons8-firebase.svg";
 import express from "../assets/icons8-express-js.svg";
+import mongodb from "../assets/icons8-mongodb-a-cross-platform-document-oriented-database-program-96.png";
+import javascript from "../assets/icons8-javascript.svg";
+import bootstrap from "../assets/icons8-bootstrap.svg";
 
 const AboutMe = () => {
   return (
@@ -62,35 +65,50 @@ const AboutMe = () => {
           <h1 className="text-center text-slate-600 text-sm lg:my-3 my-5">
             Technologies that I know
           </h1>
-          <div className="grid grid-cols-2  lg:grid-cols-3 lg:gap-4 gap-3 place-items-center">
+          <div className="grid grid-cols-2  lg:grid-cols-3 lg:gap-4 gap-3 items-center place-items-center">
             <img
-              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-2/3"
+              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-3 h-1/2"
               src={reactjs}
               alt=""
             />
             <img
-              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-2/3"
+              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-1/2"
               src={tailwind}
               alt=""
             />
             <img
-              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-2/3"
+              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-1/2"
               src={nodejs}
               alt=""
             />
             <img
-              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-2/3"
+              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-1/2"
               src={git}
               alt=""
             />
             <img
-              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-2/3"
+              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-1/2"
               src={firebase}
               alt=""
             />
             <img
-              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-2/3"
+              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-1/2"
               src={express}
+              alt=""
+            />
+            <img
+              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-1/2"
+              src={mongodb}
+              alt=""
+            />
+            <img
+              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-1/2"
+              src={javascript}
+              alt=""
+            />
+            <img
+              className="border border-slate-50 rounded-full bg-white drop-shadow-lg p-4 h-1/2"
+              src={bootstrap}
               alt=""
             />
           </div>
