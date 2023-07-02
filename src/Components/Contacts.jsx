@@ -37,7 +37,7 @@ const Contacts = () => {
           Love to hear from you,<br></br> Get in touch 👋
         </h1>
         <form className="flex flex-col" ref={form} onSubmit={sendEmail}>
-          <div className="flex flex-col lg:flex lg:items-center gap-4">
+          <div className="flex flex-col lg:flex lg:flex-row lg:items-center gap-4">
             <div className="flex flex-col w-full">
               <label className="mt-3 tracking-wide font-bold text-slate-800">
                 Your Name
