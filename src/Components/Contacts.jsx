@@ -33,7 +33,7 @@ const Contacts = () => {
   return (
     <div id="contact" className="my-36 pt-10">
       <div>
-        <h1 className="text-4xl font-bold text-slate-800 my-10">
+        <h1 className="lg:text-4xl text-2xl font-bold text-slate-800 my-10">
           Love to hear from you,<br></br> Get in touch 👋
         </h1>
         <form className="flex flex-col" ref={form} onSubmit={sendEmail}>
