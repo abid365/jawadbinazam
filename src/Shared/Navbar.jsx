@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import { Menu, MenuItem, Sidebar, sidebarClasses } from "react-pro-sidebar";
+import { SiAboutdotme } from "react-icons/si";
+import { HiOutlineDownload } from "react-icons/hi";
+import { BiNetworkChart } from "react-icons/bi";
+import { BsCode } from "react-icons/bs";
 
 const Navbar = () => {
   const [toggled, setToggled] = useState(false);
@@ -38,27 +42,45 @@ const Navbar = () => {
         toggled={toggled}
         breakPoint="all"
       >
-        <Menu
-          className="mt-14"
-          menuItemStyles={{
-            button: ({ level, active, disabled }) => {
-              // only apply styles on first level elements of the tree
-              if (level === 0)
-                return {
-                  color: disabled ? "#1b191b" : "#FFFFFF",
-                  backgroundColor: active ? "#FFFFFF" : undefined,
-                };
-            },
-          }}
-        >
-          <MenuItem> Documentation</MenuItem>
-          <MenuItem> Calendar</MenuItem>
-          <MenuItem> E-commerce</MenuItem>
-          <MenuItem> Examples</MenuItem>
+        <Menu className="mt-14">
+          <MenuItem>
+            <a
+              className="font-bold hover:text-red-400 w-fit pb-1"
+              href="#about"
+            >
+              <SiAboutdotme className="inline-block"></SiAboutdotme> About
+            </a>
+          </MenuItem>
+          <MenuItem>
+            {" "}
+            <a className="font-bold hover:text-red-400 w-fit pb-1" href="#work">
+              <BsCode className="inline-block"></BsCode> Work
+            </a>
+          </MenuItem>
+          <MenuItem>
+            {" "}
+            <a
+              className="font-bold hover:text-red-400 w-fit pb-1"
+              href="#contact"
+            >
+              <BiNetworkChart className="inline-block"></BiNetworkChart> Contact
+            </a>
+          </MenuItem>
+          <MenuItem>
+            {" "}
+            <a
+              href="/public/Resume of Jawad Azam.pdf"
+              download
+              className="font-bold hover:bg-white hover:text-red-400"
+            >
+              <HiOutlineDownload className="inline-block"></HiOutlineDownload>{" "}
+              Resume
+            </a>
+          </MenuItem>
         </Menu>
       </Sidebar>
       <button
-        className="lg:hidden md:hidden block border border-slate-800 rounded-full px-3 pt-2 pb-1 font-bold text-xs bg-slate-900 hover:bg-red-400 hover:text-white"
+        className="lg:hidden md:hidden block border border-slate-800 rounded-full px-3 pt-2 pb-[1.5px] font-bold text-xs bg-slate-900 hover:bg-red-400 hover:text-white"
         onClick={() => setToggled(!toggled)}
       >
         Menu
