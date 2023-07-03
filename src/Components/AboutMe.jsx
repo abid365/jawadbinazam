@@ -13,8 +13,8 @@ import bootstrap from "../assets/icons8-bootstrap.svg";
 const AboutMe = () => {
   return (
     <div className="my-20 pt-10" id="about">
-      <h1 className="text-3xl font-bold text-black">
-        <span className="text-red-400">#</span>About Me
+      <h1 className="text-4xl font-bold text-black">
+        <span className="text-red-400">#</span> About Me{" "}
       </h1>
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-3 items-center">
         {/* first grid column */}

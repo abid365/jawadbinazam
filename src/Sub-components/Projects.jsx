@@ -61,9 +61,7 @@ const Projects = ({
           <li className="border rounded-md p-1 border-[#e2e2e2] bg-slate-900 text-white">
             {tech5}
           </li>
-          <li className="border rounded-md p-1 border-[#e2e2e2] bg-slate-900 text-white">
-            {tech6}
-          </li>
+          <li>{tech6}</li>
         </ul>
         <div className="my-5 flex gap-5">
           <a target="_blank" href={repolink}>
