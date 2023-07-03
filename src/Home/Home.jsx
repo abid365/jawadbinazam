@@ -7,6 +7,7 @@ import AnimatedCursor from "react-animated-cursor";
 import { HashLoader } from "react-spinners";
 import Contacts from "../Components/Contacts";
 import Footer from "../Shared/Footer";
+import Showcase from "../Components/Showcase";
 
 const Home = () => {
   const [loading, setLoading] = useState(false);
@@ -30,7 +31,7 @@ const Home = () => {
           <div className="px-10">
             <HeroSection></HeroSection>
             <AboutMe></AboutMe>
-            <Work></Work>
+            <Showcase></Showcase>
             <Contacts></Contacts>
           </div>
           <Footer></Footer>

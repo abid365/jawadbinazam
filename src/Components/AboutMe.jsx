@@ -19,7 +19,7 @@ const AboutMe = () => {
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-3 items-center">
         {/* first grid column */}
         <div>
-          <p className="my-5">
+          <p className="my-2 text-slate-900 text-justify tracking-wide">
             Hello! My name is Jawad Bin Azam and I enjoy creating things that
             survive on the internet. My interest became more strong when I
             decided to create a custom blogging site where everyone can post
