@@ -4,11 +4,11 @@ import { FaGithub } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
-    <div id="home" className="grid lg:grid-cols-2 grid-cols-1 items-center">
+    <div id="home" className="grid lg:grid-cols-2 grid-cols-1 items-start">
       <div className="lg:mt-14 mt-10 pb-20">
         <h1 className="text-slate-700">👋 Hi, my name is</h1>
         <h1 className="tracking-tight text-6xl font-bold mt-8">Jawad</h1>
-        <h1 className="tracking-tighter text-6xl font-extrabold text-slate-800">
+        <h1 className="tracking-tighter lg:text-7xl text-6xl font-extrabold text-slate-800">
           I create wonders<br></br> for the web.
         </h1>
         <p className="mt-8">
@@ -25,7 +25,7 @@ const HeroSection = () => {
       </div>
       <div>
         <img
-          className="rounded-full border-2 border-slate-700 shadow-lg h-2/3 scale-75"
+          className="rounded-full border-2 border-slate-700 shadow-lg h-2/3 scale-75 mt-10"
           src="https://i.ibb.co/XtJVFzQ/Jawad-s-Image.jpg"
           alt="Portfoliyo Image"
         />

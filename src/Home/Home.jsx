@@ -27,7 +27,7 @@ const Home = () => {
         <div className="bg-gradient-to-r from-slate-50 via-white to-slate-100">
           <Navbar></Navbar>
           {/* main container */}
-          <div className="px-10">
+          <div className="px-10 md:mx-10 lg:mx-10">
             <HeroSection></HeroSection>
             <AboutMe></AboutMe>
             <Work></Work>
