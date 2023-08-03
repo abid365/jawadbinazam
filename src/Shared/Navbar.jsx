@@ -4,6 +4,7 @@ import { SiAboutdotme } from "react-icons/si";
 import { HiOutlineDownload } from "react-icons/hi";
 import { BiNetworkChart } from "react-icons/bi";
 import { BsCode } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggled, setToggled] = useState(false);
@@ -51,9 +52,8 @@ const Navbar = () => {
               <SiAboutdotme className="inline-block"></SiAboutdotme> About
             </a>
           </MenuItem>
-          <MenuItem>
-            {" "}
-            <a className="font-bold hover:text-red-400 w-fit pb-1" href="#work">
+          <MenuItem className="font-bold hover:text-red-400 w-fit pb-1">
+            <a href="#work">
               <BsCode className="inline-block"></BsCode> Work
             </a>
           </MenuItem>
@@ -80,7 +80,7 @@ const Navbar = () => {
         </Menu>
       </Sidebar>
       <button
-        className="lg:hidden md:hidden block border border-slate-800 rounded-full px-3 pt-2 pb-[1.5px] font-bold text-xs bg-slate-900 hover:bg-red-400 hover:text-white"
+        className="lg:hidden md:hidden block border border-slate-800 rounded-full px-4 py-2 font-bold text-xs bg-slate-900 hover:bg-red-400 hover:text-white"
         onClick={() => setToggled(!toggled)}
       >
         Menu
