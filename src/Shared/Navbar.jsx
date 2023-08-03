@@ -43,39 +43,31 @@ const Navbar = () => {
         breakPoint="all"
       >
         <Menu className="mt-14">
-          <MenuItem>
-            <a
-              className="font-bold hover:text-red-400 w-fit pb-1"
-              href="#about"
-            >
-              <SiAboutdotme className="inline-block"></SiAboutdotme> About
-            </a>
+          <MenuItem
+            className="font-bold hover:text-red-400 w-fit pb-1"
+            href="#about"
+          >
+            <SiAboutdotme className="inline-block"></SiAboutdotme> About
           </MenuItem>
-          <MenuItem>
-            {" "}
-            <a className="font-bold hover:text-red-400 w-fit pb-1" href="#work">
-              <BsCode className="inline-block"></BsCode> Work
-            </a>
+          <MenuItem
+            className="font-bold hover:text-red-400 w-fit pb-1"
+            href="#work"
+          >
+            <BsCode className="inline-block"></BsCode> Works
           </MenuItem>
-          <MenuItem>
-            {" "}
-            <a
-              className="font-bold hover:text-red-400 w-fit pb-1"
-              href="#contact"
-            >
-              <BiNetworkChart className="inline-block"></BiNetworkChart> Contact
-            </a>
+          <MenuItem
+            className="font-bold hover:text-red-400 w-fit pb-1"
+            href="#contact"
+          >
+            <BiNetworkChart className="inline-block"></BiNetworkChart> Contact
           </MenuItem>
-          <MenuItem>
-            {" "}
-            <a
-              href="/public/Resume of Jawad Azam.pdf"
-              download
-              className="font-bold hover:bg-white hover:text-red-400"
-            >
-              <HiOutlineDownload className="inline-block"></HiOutlineDownload>{" "}
-              Resume
-            </a>
+          <MenuItem
+            href="/public/Resume of Jawad Azam.pdf"
+            download
+            className="font-bold hover:bg-white hover:text-red-400"
+          >
+            <HiOutlineDownload className="inline-block"></HiOutlineDownload>
+            Resume
           </MenuItem>
         </Menu>
       </Sidebar>
