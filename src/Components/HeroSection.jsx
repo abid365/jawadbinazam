@@ -23,7 +23,7 @@ const HeroSection = () => {
           </a>
         </button>
       </div>
-      <div>
+      <div className="relative">
         <img
           className="rounded-full border-2 border-slate-700 shadow-lg h-2/3 scale-75 mt-10"
           src="https://i.ibb.co/XtJVFzQ/Jawad-s-Image.jpg"
