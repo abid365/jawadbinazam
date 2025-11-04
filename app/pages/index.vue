@@ -6,7 +6,6 @@ import linkedin from "~/assets/landing/svg/linkedin-01.svg";
 import mail from "~/assets/landing/svg/mail-01.svg";
 import whatsapp from "~/assets/landing/svg/whatsapp.svg";
 import brownbrick from "~/assets/landing/svg/brownbrick.svg";
-import anilon from "~/assets/landing/svg/anilon-devs.svg";
 import ArrowStroke from "~/components/ArrowStroke.vue";
 
 definePageMeta({
@@ -37,7 +36,7 @@ const socials = [
 ];
 </script>
 <template>
-  <Container>
+  <LayoutsContainer>
     <div class="mt-22 relative">
       <img :src="gradient" alt="magic gradient" class="absolute top-0 magic" />
       <div>
@@ -80,14 +79,14 @@ const socials = [
         />
       </div>
     </div>
-  </Container>
-  <Container>
+  </LayoutsContainer>
+  <LayoutsContainer>
     <h1 class="font-inter text-[18px] font-normal section-header">
       Experience
     </h1>
     <div class="mt-6 font-inter flex flex-col gap-y-4">
       <div class="flex items-end gap-x-5">
-        <div class="flex gap-x-[6px] border border-red-400 min-w-[200px]">
+        <div class="flex gap-x-[6px] min-w-[200px]">
           <img :src="brownbrick" alt="brownbrick company" />
           <div>
             <h1 class="text-[16px] font-normal">Brownbrick.io</h1>
@@ -109,7 +108,7 @@ const socials = [
         </div>
       </div>
       <div class="flex items-end gap-x-5">
-        <div class="flex gap-x-[6px] border border-red-400 min-w-[200px]">
+        <div class="flex gap-x-[6px] min-w-[200px]">
           <Anilon />
           <div>
             <h1 class="text-[16px] font-normal">Anilon Devs</h1>
@@ -131,7 +130,7 @@ const socials = [
         </div>
       </div>
     </div>
-  </Container>
+  </LayoutsContainer>
 </template>
 <style scoped lang="css">
 .magic {
